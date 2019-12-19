@@ -1,9 +1,10 @@
-Idéen
+# Idéen
 Idéen med dette projekt er at få kameraet på computeren til at genkende antallet af ansigter, der dukker op på skærmen. Baseret på antallet af ansigter på skærmen, skal der vises en farve lys, på en Philips HUE LED pærer. 
 Idéen er på den måde at jo flere der er på skærmen, jo mere ændre pæren sig, hvilket altså vil sige at lyset bliver mere dynamisk og spændende. Denne feature kunne eksempelvis være sjov at kunne vise frem under fester og lignende.
 
 https://digitalteknik.it.slotshaven.dk/?p=3804
 Vores program
+
 
 På diagrammet ses kommunikationen mellem vores program og API’erne. Vores program sender data til Face API, som så sender ny data tilbage til vores program. Derefter sender vores program, så de data videre til HUE API, som styre pærens farve/lysstyrke. 
 Face-API
